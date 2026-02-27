@@ -1,0 +1,501 @@
+Machine_ID,Machine_Type,Failure_Prob,Failure_Predicted,Actual_Label,Health_Score,Risk_Tier
+MCH-001,Conveyor,0.007,0,0,99.3,Healthy
+MCH-002,CNC Mill,0.984,1,1,1.6,Critical
+MCH-003,Conveyor,0.005,0,0,99.5,Healthy
+MCH-004,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-005,Conveyor,0.992,1,1,0.8,Critical
+MCH-006,Hydraulic Press,0.007,0,0,99.3,Healthy
+MCH-007,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-008,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-009,Lathe,0.016,0,0,98.4,Healthy
+MCH-010,CNC Mill,0.007,0,0,99.3,Healthy
+MCH-011,Conveyor,0.005,0,0,99.5,Healthy
+MCH-012,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-013,Hydraulic Press,0.99,1,1,1.0,Critical
+MCH-014,Welding Unit,0.011,0,0,98.9,Healthy
+MCH-015,Welding Unit,0.99,1,1,1.0,Critical
+MCH-016,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-017,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-018,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-019,Lathe,0.168,0,1,83.2,Healthy
+MCH-020,Conveyor,0.005,0,0,99.5,Healthy
+MCH-021,Conveyor,0.005,0,0,99.5,Healthy
+MCH-022,Conveyor,0.005,0,0,99.5,Healthy
+MCH-023,Conveyor,0.005,0,0,99.5,Healthy
+MCH-024,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-025,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-026,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-027,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-028,CNC Mill,0.007,0,0,99.3,Healthy
+MCH-029,Hydraulic Press,0.189,0,1,81.1,Healthy
+MCH-030,Lathe,0.979,1,1,2.1,Critical
+MCH-031,Lathe,0.043,0,0,95.7,Healthy
+MCH-032,CNC Mill,0.008,0,0,99.2,Healthy
+MCH-033,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-034,CNC Mill,0.01,0,0,99.0,Healthy
+MCH-035,CNC Mill,0.956,1,1,4.4,Critical
+MCH-036,Lathe,0.007,0,0,99.3,Healthy
+MCH-037,Welding Unit,0.231,1,0,76.9,Monitor
+MCH-038,Hydraulic Press,0.029,0,0,97.1,Healthy
+MCH-039,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-040,Welding Unit,0.013,0,0,98.7,Healthy
+MCH-041,CNC Mill,0.03,0,0,97.0,Healthy
+MCH-042,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-043,Hydraulic Press,0.016,0,0,98.4,Healthy
+MCH-044,CNC Mill,0.009,0,0,99.1,Healthy
+MCH-045,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-046,Lathe,0.99,1,1,1.0,Critical
+MCH-047,CNC Mill,0.04,0,0,96.0,Healthy
+MCH-048,Lathe,0.011,0,0,98.9,Healthy
+MCH-049,Hydraulic Press,0.007,0,0,99.3,Healthy
+MCH-050,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-051,Hydraulic Press,0.037,0,0,96.3,Healthy
+MCH-052,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-053,Lathe,0.006,0,0,99.4,Healthy
+MCH-054,Hydraulic Press,0.015,0,0,98.5,Healthy
+MCH-055,Lathe,0.005,0,0,99.5,Healthy
+MCH-056,Lathe,0.018,0,0,98.2,Healthy
+MCH-057,Conveyor,0.008,0,0,99.2,Healthy
+MCH-058,CNC Mill,0.965,1,1,3.5,Critical
+MCH-059,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-060,Lathe,0.983,1,1,1.7,Critical
+MCH-061,Welding Unit,0.987,1,1,1.3,Critical
+MCH-062,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-063,Lathe,0.012,0,0,98.8,Healthy
+MCH-064,Hydraulic Press,0.009,0,0,99.1,Healthy
+MCH-065,Lathe,0.005,0,0,99.5,Healthy
+MCH-066,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-067,Hydraulic Press,0.98,1,0,2.0,Critical
+MCH-068,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-069,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-070,CNC Mill,0.025,0,0,97.5,Healthy
+MCH-071,Welding Unit,0.983,1,1,1.7,Critical
+MCH-072,Welding Unit,0.012,0,0,98.8,Healthy
+MCH-073,CNC Mill,0.984,1,1,1.6,Critical
+MCH-074,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-075,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-076,Lathe,0.991,1,1,0.9,Critical
+MCH-077,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-078,CNC Mill,0.007,0,0,99.3,Healthy
+MCH-079,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-080,Lathe,0.016,0,0,98.4,Healthy
+MCH-081,Conveyor,0.991,1,1,0.9,Critical
+MCH-082,Lathe,0.019,0,0,98.1,Healthy
+MCH-083,Lathe,0.989,1,1,1.1,Critical
+MCH-084,Conveyor,0.006,0,0,99.4,Healthy
+MCH-085,Hydraulic Press,0.012,0,0,98.8,Healthy
+MCH-086,Conveyor,0.985,1,1,1.5,Critical
+MCH-087,Conveyor,0.007,0,0,99.3,Healthy
+MCH-088,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-089,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-090,Conveyor,0.991,1,1,0.9,Critical
+MCH-091,Welding Unit,0.911,1,0,8.9,Critical
+MCH-092,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-093,Lathe,0.007,0,0,99.3,Healthy
+MCH-094,CNC Mill,0.009,0,0,99.1,Healthy
+MCH-095,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-096,Conveyor,0.008,0,0,99.2,Healthy
+MCH-097,Lathe,0.991,1,1,0.9,Critical
+MCH-098,Conveyor,0.99,1,1,1.0,Critical
+MCH-099,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-100,Lathe,0.953,1,1,4.7,Critical
+MCH-101,Hydraulic Press,0.009,0,0,99.1,Healthy
+MCH-102,Lathe,0.009,0,0,99.1,Healthy
+MCH-103,Lathe,0.006,0,0,99.4,Healthy
+MCH-104,Hydraulic Press,0.992,1,1,0.8,Critical
+MCH-105,Hydraulic Press,0.99,1,1,1.0,Critical
+MCH-106,Conveyor,0.992,1,1,0.8,Critical
+MCH-107,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-108,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-109,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-110,Lathe,0.007,0,0,99.3,Healthy
+MCH-111,Lathe,0.005,0,0,99.5,Healthy
+MCH-112,Conveyor,0.986,1,1,1.4,Critical
+MCH-113,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-114,Conveyor,0.005,0,0,99.5,Healthy
+MCH-115,CNC Mill,0.991,1,1,0.9,Critical
+MCH-116,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-117,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-118,Welding Unit,0.984,1,1,1.6,Critical
+MCH-119,Conveyor,0.005,0,0,99.5,Healthy
+MCH-120,Welding Unit,0.017,0,0,98.3,Healthy
+MCH-121,Hydraulic Press,0.026,0,0,97.4,Healthy
+MCH-122,Welding Unit,0.984,1,1,1.6,Critical
+MCH-123,CNC Mill,0.991,1,1,0.9,Critical
+MCH-124,CNC Mill,0.984,1,1,1.6,Critical
+MCH-125,Lathe,0.011,0,0,98.9,Healthy
+MCH-126,Welding Unit,0.991,1,1,0.9,Critical
+MCH-127,Lathe,0.065,0,0,93.5,Healthy
+MCH-128,Conveyor,0.988,1,1,1.2,Critical
+MCH-129,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-130,Hydraulic Press,0.018,0,0,98.2,Healthy
+MCH-131,CNC Mill,0.008,0,0,99.2,Healthy
+MCH-132,Welding Unit,0.992,1,1,0.8,Critical
+MCH-133,Conveyor,0.006,0,0,99.4,Healthy
+MCH-134,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-135,Conveyor,0.006,0,0,99.4,Healthy
+MCH-136,CNC Mill,0.016,0,0,98.4,Healthy
+MCH-137,Lathe,0.986,1,1,1.4,Critical
+MCH-138,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-139,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-140,Conveyor,0.007,0,0,99.3,Healthy
+MCH-141,Hydraulic Press,0.032,0,0,96.8,Healthy
+MCH-142,Conveyor,0.006,0,0,99.4,Healthy
+MCH-143,Lathe,0.976,1,1,2.4,Critical
+MCH-144,Hydraulic Press,0.99,1,1,1.0,Critical
+MCH-145,Lathe,0.005,0,0,99.5,Healthy
+MCH-146,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-147,Conveyor,0.99,1,1,1.0,Critical
+MCH-148,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-149,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-150,Welding Unit,0.991,1,1,0.9,Critical
+MCH-151,Conveyor,0.005,0,0,99.5,Healthy
+MCH-152,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-153,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-154,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-155,Conveyor,0.005,0,0,99.5,Healthy
+MCH-156,Hydraulic Press,0.009,0,0,99.1,Healthy
+MCH-157,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-158,CNC Mill,0.012,0,0,98.8,Healthy
+MCH-159,CNC Mill,0.992,1,1,0.8,Critical
+MCH-160,CNC Mill,0.988,1,1,1.2,Critical
+MCH-161,Conveyor,0.005,0,0,99.5,Healthy
+MCH-162,Welding Unit,0.988,1,1,1.2,Critical
+MCH-163,Lathe,0.006,0,0,99.4,Healthy
+MCH-164,Welding Unit,0.016,0,0,98.4,Healthy
+MCH-165,Welding Unit,0.989,1,1,1.1,Critical
+MCH-166,Hydraulic Press,0.008,0,0,99.2,Healthy
+MCH-167,Lathe,0.007,0,0,99.3,Healthy
+MCH-168,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-169,CNC Mill,0.01,0,0,99.0,Healthy
+MCH-170,Conveyor,0.018,0,0,98.2,Healthy
+MCH-171,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-172,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-173,Lathe,0.005,0,0,99.5,Healthy
+MCH-174,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-175,CNC Mill,0.984,1,1,1.6,Critical
+MCH-176,Hydraulic Press,0.975,1,1,2.5,Critical
+MCH-177,Lathe,0.017,0,0,98.3,Healthy
+MCH-178,Conveyor,0.008,0,0,99.2,Healthy
+MCH-179,Hydraulic Press,0.012,0,0,98.8,Healthy
+MCH-180,Hydraulic Press,0.007,0,0,99.3,Healthy
+MCH-181,Lathe,0.005,0,0,99.5,Healthy
+MCH-182,Lathe,0.007,0,0,99.3,Healthy
+MCH-183,Conveyor,0.007,0,0,99.3,Healthy
+MCH-184,Conveyor,0.006,0,0,99.4,Healthy
+MCH-185,Conveyor,0.012,0,0,98.8,Healthy
+MCH-186,Welding Unit,0.009,0,0,99.1,Healthy
+MCH-187,Lathe,0.988,1,1,1.2,Critical
+MCH-188,Conveyor,0.988,1,1,1.2,Critical
+MCH-189,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-190,CNC Mill,0.009,0,0,99.1,Healthy
+MCH-191,Welding Unit,0.018,0,0,98.2,Healthy
+MCH-192,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-193,Welding Unit,0.975,1,1,2.5,Critical
+MCH-194,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-195,Conveyor,0.007,0,0,99.3,Healthy
+MCH-196,Hydraulic Press,0.01,0,0,99.0,Healthy
+MCH-197,Conveyor,0.01,0,0,99.0,Healthy
+MCH-198,Welding Unit,0.017,0,0,98.3,Healthy
+MCH-199,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-200,CNC Mill,0.015,0,0,98.5,Healthy
+MCH-201,Lathe,0.009,0,0,99.1,Healthy
+MCH-202,Hydraulic Press,0.017,0,0,98.3,Healthy
+MCH-203,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-204,Lathe,0.986,1,1,1.4,Critical
+MCH-205,CNC Mill,0.018,0,0,98.2,Healthy
+MCH-206,Conveyor,0.015,0,0,98.5,Healthy
+MCH-207,CNC Mill,0.981,1,1,1.9,Critical
+MCH-208,Conveyor,0.005,0,0,99.5,Healthy
+MCH-209,Hydraulic Press,0.074,0,0,92.6,Healthy
+MCH-210,CNC Mill,0.01,0,0,99.0,Healthy
+MCH-211,Lathe,0.007,0,0,99.3,Healthy
+MCH-212,Hydraulic Press,0.007,0,0,99.3,Healthy
+MCH-213,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-214,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-215,CNC Mill,0.008,0,0,99.2,Healthy
+MCH-216,Welding Unit,0.991,1,1,0.9,Critical
+MCH-217,Hydraulic Press,0.946,1,1,5.4,Critical
+MCH-218,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-219,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-220,Hydraulic Press,0.924,1,1,7.6,Critical
+MCH-221,Lathe,0.006,0,0,99.4,Healthy
+MCH-222,Lathe,0.968,1,1,3.2,Critical
+MCH-223,Conveyor,0.987,1,1,1.3,Critical
+MCH-224,Lathe,0.005,0,0,99.5,Healthy
+MCH-225,CNC Mill,0.987,1,1,1.3,Critical
+MCH-226,Lathe,0.984,1,1,1.6,Critical
+MCH-227,CNC Mill,0.016,0,0,98.4,Healthy
+MCH-228,Welding Unit,0.011,0,0,98.9,Healthy
+MCH-229,Lathe,0.006,0,0,99.4,Healthy
+MCH-230,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-231,CNC Mill,0.986,1,1,1.4,Critical
+MCH-232,Lathe,0.006,0,0,99.4,Healthy
+MCH-233,Lathe,0.005,0,0,99.5,Healthy
+MCH-234,Conveyor,0.006,0,0,99.4,Healthy
+MCH-235,CNC Mill,0.05,0,0,95.0,Healthy
+MCH-236,Hydraulic Press,0.051,0,0,94.9,Healthy
+MCH-237,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-238,CNC Mill,0.989,1,1,1.1,Critical
+MCH-239,Lathe,0.923,1,1,7.7,Critical
+MCH-240,Welding Unit,0.987,1,1,1.3,Critical
+MCH-241,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-242,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-243,Lathe,0.007,0,0,99.3,Healthy
+MCH-244,Lathe,0.005,0,0,99.5,Healthy
+MCH-245,Conveyor,0.005,0,0,99.5,Healthy
+MCH-246,CNC Mill,0.962,1,1,3.8,Critical
+MCH-247,Lathe,0.006,0,0,99.4,Healthy
+MCH-248,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-249,Hydraulic Press,0.018,0,0,98.2,Healthy
+MCH-250,Conveyor,0.985,1,1,1.5,Critical
+MCH-251,Hydraulic Press,0.013,0,0,98.7,Healthy
+MCH-252,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-253,Hydraulic Press,0.01,0,0,99.0,Healthy
+MCH-254,Welding Unit,0.991,1,1,0.9,Critical
+MCH-255,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-256,CNC Mill,0.012,0,0,98.8,Healthy
+MCH-257,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-258,Lathe,0.007,0,0,99.3,Healthy
+MCH-259,Welding Unit,0.012,0,0,98.8,Healthy
+MCH-260,Lathe,0.02,0,0,98.0,Healthy
+MCH-261,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-262,Lathe,0.006,0,0,99.4,Healthy
+MCH-263,Conveyor,0.009,0,0,99.1,Healthy
+MCH-264,Lathe,0.005,0,0,99.5,Healthy
+MCH-265,Lathe,0.988,1,1,1.2,Critical
+MCH-266,Conveyor,0.006,0,0,99.4,Healthy
+MCH-267,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-268,Hydraulic Press,0.009,0,0,99.1,Healthy
+MCH-269,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-270,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-271,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-272,Welding Unit,0.991,1,1,0.9,Critical
+MCH-273,Conveyor,0.991,1,1,0.9,Critical
+MCH-274,CNC Mill,0.013,0,0,98.7,Healthy
+MCH-275,CNC Mill,0.991,1,1,0.9,Critical
+MCH-276,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-277,Conveyor,0.005,0,0,99.5,Healthy
+MCH-278,Hydraulic Press,0.99,1,1,1.0,Critical
+MCH-279,Conveyor,0.006,0,0,99.4,Healthy
+MCH-280,Lathe,0.006,0,0,99.4,Healthy
+MCH-281,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-282,Welding Unit,0.029,0,0,97.1,Healthy
+MCH-283,Hydraulic Press,0.008,0,0,99.2,Healthy
+MCH-284,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-285,Lathe,0.007,0,0,99.3,Healthy
+MCH-286,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-287,Lathe,0.007,0,0,99.3,Healthy
+MCH-288,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-289,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-290,CNC Mill,0.007,0,0,99.3,Healthy
+MCH-291,Hydraulic Press,0.978,1,1,2.2,Critical
+MCH-292,Lathe,0.009,0,0,99.1,Healthy
+MCH-293,CNC Mill,0.022,0,0,97.8,Healthy
+MCH-294,Welding Unit,0.014,0,0,98.6,Healthy
+MCH-295,Welding Unit,0.012,0,0,98.8,Healthy
+MCH-296,Lathe,0.007,0,0,99.3,Healthy
+MCH-297,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-298,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-299,CNC Mill,0.021,0,0,97.9,Healthy
+MCH-300,CNC Mill,0.985,1,1,1.5,Critical
+MCH-301,Conveyor,0.009,0,0,99.1,Healthy
+MCH-302,CNC Mill,0.011,0,0,98.9,Healthy
+MCH-303,CNC Mill,0.011,0,0,98.9,Healthy
+MCH-304,Conveyor,0.005,0,0,99.5,Healthy
+MCH-305,Hydraulic Press,0.007,0,0,99.3,Healthy
+MCH-306,Conveyor,0.989,1,1,1.1,Critical
+MCH-307,Lathe,0.008,0,0,99.2,Healthy
+MCH-308,Conveyor,0.015,0,0,98.5,Healthy
+MCH-309,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-310,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-311,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-312,Lathe,0.119,0,0,88.1,Healthy
+MCH-313,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-314,Lathe,0.976,1,0,2.4,Critical
+MCH-315,Conveyor,0.992,1,1,0.8,Critical
+MCH-316,CNC Mill,0.007,0,0,99.3,Healthy
+MCH-317,Conveyor,0.007,0,0,99.3,Healthy
+MCH-318,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-319,Hydraulic Press,0.076,0,0,92.4,Healthy
+MCH-320,Hydraulic Press,0.992,1,1,0.8,Critical
+MCH-321,Conveyor,0.006,0,0,99.4,Healthy
+MCH-322,Hydraulic Press,0.012,0,0,98.8,Healthy
+MCH-323,CNC Mill,0.007,0,0,99.3,Healthy
+MCH-324,Hydraulic Press,0.987,1,1,1.3,Critical
+MCH-325,Lathe,0.005,0,0,99.5,Healthy
+MCH-326,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-327,Conveyor,0.012,0,0,98.8,Healthy
+MCH-328,Welding Unit,0.008,0,0,99.2,Healthy
+MCH-329,Hydraulic Press,0.01,0,0,99.0,Healthy
+MCH-330,Lathe,0.99,1,1,1.0,Critical
+MCH-331,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-332,Lathe,0.991,1,1,0.9,Critical
+MCH-333,Conveyor,0.006,0,0,99.4,Healthy
+MCH-334,Lathe,0.988,1,1,1.2,Critical
+MCH-335,Hydraulic Press,0.064,0,0,93.6,Healthy
+MCH-336,Welding Unit,0.991,1,1,0.9,Critical
+MCH-337,Lathe,0.009,0,0,99.1,Healthy
+MCH-338,Conveyor,0.007,0,0,99.3,Healthy
+MCH-339,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-340,Conveyor,0.019,0,0,98.1,Healthy
+MCH-341,Conveyor,0.99,1,1,1.0,Critical
+MCH-342,CNC Mill,0.012,0,0,98.8,Healthy
+MCH-343,Conveyor,0.006,0,0,99.4,Healthy
+MCH-344,Welding Unit,0.983,1,1,1.7,Critical
+MCH-345,CNC Mill,0.985,1,1,1.5,Critical
+MCH-346,Conveyor,0.99,1,1,1.0,Critical
+MCH-347,Lathe,0.007,0,0,99.3,Healthy
+MCH-348,Hydraulic Press,0.984,1,1,1.6,Critical
+MCH-349,Hydraulic Press,0.007,0,0,99.3,Healthy
+MCH-350,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-351,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-352,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-353,Conveyor,0.987,1,1,1.3,Critical
+MCH-354,Hydraulic Press,0.986,1,1,1.4,Critical
+MCH-355,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-356,Lathe,0.977,1,1,2.3,Critical
+MCH-357,Conveyor,0.005,0,0,99.5,Healthy
+MCH-358,Lathe,0.028,0,0,97.2,Healthy
+MCH-359,Conveyor,0.012,0,0,98.8,Healthy
+MCH-360,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-361,Hydraulic Press,0.012,0,0,98.8,Healthy
+MCH-362,CNC Mill,0.014,0,0,98.6,Healthy
+MCH-363,Welding Unit,0.008,0,0,99.2,Healthy
+MCH-364,Conveyor,0.971,1,1,2.9,Critical
+MCH-365,Conveyor,0.007,0,0,99.3,Healthy
+MCH-366,Hydraulic Press,0.013,0,0,98.7,Healthy
+MCH-367,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-368,Welding Unit,0.012,0,0,98.8,Healthy
+MCH-369,Lathe,0.006,0,0,99.4,Healthy
+MCH-370,Lathe,0.989,1,1,1.1,Critical
+MCH-371,Welding Unit,0.99,1,1,1.0,Critical
+MCH-372,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-373,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-374,CNC Mill,0.009,0,0,99.1,Healthy
+MCH-375,Conveyor,0.986,1,1,1.4,Critical
+MCH-376,CNC Mill,0.99,1,1,1.0,Critical
+MCH-377,Lathe,0.015,0,0,98.5,Healthy
+MCH-378,Conveyor,0.988,1,1,1.2,Critical
+MCH-379,Hydraulic Press,0.009,0,0,99.1,Healthy
+MCH-380,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-381,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-382,Lathe,0.005,0,0,99.5,Healthy
+MCH-383,Hydraulic Press,0.059,0,0,94.1,Healthy
+MCH-384,Conveyor,0.016,0,1,98.4,Healthy
+MCH-385,CNC Mill,0.986,1,1,1.4,Critical
+MCH-386,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-387,Lathe,0.008,0,0,99.2,Healthy
+MCH-388,Conveyor,0.005,0,0,99.5,Healthy
+MCH-389,Conveyor,0.005,0,0,99.5,Healthy
+MCH-390,Lathe,0.024,0,0,97.6,Healthy
+MCH-391,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-392,Conveyor,0.006,0,0,99.4,Healthy
+MCH-393,Conveyor,0.005,0,0,99.5,Healthy
+MCH-394,Hydraulic Press,0.991,1,1,0.9,Critical
+MCH-395,CNC Mill,0.009,0,0,99.1,Healthy
+MCH-396,Lathe,0.006,0,0,99.4,Healthy
+MCH-397,CNC Mill,0.988,1,1,1.2,Critical
+MCH-398,Lathe,0.987,1,1,1.3,Critical
+MCH-399,Lathe,0.005,0,0,99.5,Healthy
+MCH-400,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-401,Conveyor,0.011,0,0,98.9,Healthy
+MCH-402,CNC Mill,0.008,0,0,99.2,Healthy
+MCH-403,Welding Unit,0.097,0,0,90.3,Healthy
+MCH-404,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-405,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-406,Hydraulic Press,0.011,0,0,98.9,Healthy
+MCH-407,CNC Mill,0.016,0,0,98.4,Healthy
+MCH-408,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-409,Hydraulic Press,0.988,1,1,1.2,Critical
+MCH-410,Conveyor,0.005,0,0,99.5,Healthy
+MCH-411,Welding Unit,0.006,0,0,99.4,Healthy
+MCH-412,Conveyor,0.991,1,1,0.9,Critical
+MCH-413,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-414,Welding Unit,0.026,0,0,97.4,Healthy
+MCH-415,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-416,Welding Unit,0.008,0,0,99.2,Healthy
+MCH-417,CNC Mill,0.034,0,0,96.6,Healthy
+MCH-418,CNC Mill,0.936,1,1,6.4,Critical
+MCH-419,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-420,CNC Mill,0.074,0,0,92.6,Healthy
+MCH-421,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-422,Conveyor,0.01,0,0,99.0,Healthy
+MCH-423,Conveyor,0.007,0,0,99.3,Healthy
+MCH-424,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-425,Welding Unit,0.017,0,0,98.3,Healthy
+MCH-426,Conveyor,0.005,0,0,99.5,Healthy
+MCH-427,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-428,Hydraulic Press,0.012,0,0,98.8,Healthy
+MCH-429,Hydraulic Press,0.01,0,0,99.0,Healthy
+MCH-430,Lathe,0.006,0,0,99.4,Healthy
+MCH-431,Hydraulic Press,0.01,0,0,99.0,Healthy
+MCH-432,Conveyor,0.008,0,0,99.2,Healthy
+MCH-433,Conveyor,0.05,0,0,95.0,Healthy
+MCH-434,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-435,Lathe,0.005,0,0,99.5,Healthy
+MCH-436,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-437,Lathe,0.965,1,1,3.5,Critical
+MCH-438,CNC Mill,0.008,0,0,99.2,Healthy
+MCH-439,Welding Unit,0.964,1,1,3.6,Critical
+MCH-440,Hydraulic Press,0.981,1,1,1.9,Critical
+MCH-441,Conveyor,0.112,0,0,88.8,Healthy
+MCH-442,Lathe,0.009,0,0,99.1,Healthy
+MCH-443,Lathe,0.008,0,0,99.2,Healthy
+MCH-444,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-445,Welding Unit,0.009,0,0,99.1,Healthy
+MCH-446,Conveyor,0.007,0,0,99.3,Healthy
+MCH-447,Conveyor,0.005,0,0,99.5,Healthy
+MCH-448,Welding Unit,0.023,0,0,97.7,Healthy
+MCH-449,Conveyor,0.006,0,0,99.4,Healthy
+MCH-450,Conveyor,0.005,0,0,99.5,Healthy
+MCH-451,Hydraulic Press,0.98,1,1,2.0,Critical
+MCH-452,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-453,Welding Unit,0.98,1,1,2.0,Critical
+MCH-454,Conveyor,0.005,0,0,99.5,Healthy
+MCH-455,Lathe,0.007,0,0,99.3,Healthy
+MCH-456,Welding Unit,0.018,0,0,98.2,Healthy
+MCH-457,Welding Unit,0.008,0,0,99.2,Healthy
+MCH-458,CNC Mill,0.008,0,0,99.2,Healthy
+MCH-459,Hydraulic Press,0.018,0,0,98.2,Healthy
+MCH-460,Welding Unit,0.052,0,0,94.8,Healthy
+MCH-461,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-462,Lathe,0.01,0,0,99.0,Healthy
+MCH-463,Lathe,0.005,0,0,99.5,Healthy
+MCH-464,Lathe,0.024,0,0,97.6,Healthy
+MCH-465,Welding Unit,0.989,1,1,1.1,Critical
+MCH-466,Welding Unit,0.005,0,0,99.5,Healthy
+MCH-467,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-468,Welding Unit,0.007,0,0,99.3,Healthy
+MCH-469,Lathe,0.005,0,0,99.5,Healthy
+MCH-470,Lathe,0.005,0,0,99.5,Healthy
+MCH-471,Hydraulic Press,0.008,0,0,99.2,Healthy
+MCH-472,CNC Mill,0.009,0,0,99.1,Healthy
+MCH-473,CNC Mill,0.005,0,0,99.5,Healthy
+MCH-474,Lathe,0.005,0,0,99.5,Healthy
+MCH-475,Welding Unit,0.013,0,0,98.7,Healthy
+MCH-476,Lathe,0.016,0,0,98.4,Healthy
+MCH-477,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-478,CNC Mill,0.99,1,1,1.0,Critical
+MCH-479,CNC Mill,0.006,0,0,99.4,Healthy
+MCH-480,Conveyor,0.98,1,1,2.0,Critical
+MCH-481,Hydraulic Press,0.006,0,0,99.4,Healthy
+MCH-482,Lathe,0.005,0,0,99.5,Healthy
+MCH-483,CNC Mill,0.008,0,0,99.2,Healthy
+MCH-484,CNC Mill,0.989,1,1,1.1,Critical
+MCH-485,Hydraulic Press,0.005,0,0,99.5,Healthy
+MCH-486,Lathe,0.006,0,0,99.4,Healthy
+MCH-487,Conveyor,0.991,1,1,0.9,Critical
+MCH-488,Lathe,0.01,0,0,99.0,Healthy
+MCH-489,Lathe,0.991,1,1,0.9,Critical
+MCH-490,CNC Mill,0.156,0,0,84.4,Healthy
+MCH-491,Lathe,0.988,1,1,1.2,Critical
+MCH-492,Welding Unit,0.008,0,0,99.2,Healthy
+MCH-493,CNC Mill,0.023,0,0,97.7,Healthy
+MCH-494,Conveyor,0.974,1,1,2.6,Critical
+MCH-495,Lathe,0.982,1,1,1.8,Critical
+MCH-496,Conveyor,0.04,0,0,96.0,Healthy
+MCH-497,CNC Mill,0.007,0,0,99.3,Healthy
+MCH-498,Lathe,0.006,0,0,99.4,Healthy
+MCH-499,Lathe,0.981,1,1,1.9,Critical
+MCH-500,Welding Unit,0.04,0,0,96.0,Healthy

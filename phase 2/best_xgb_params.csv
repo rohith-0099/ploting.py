@@ -1,0 +1,2 @@
+n_estimators,max_depth,learning_rate,subsample,colsample_bytree,min_child_weight,gamma,scale_pos_weight,eval_metric,random_state,verbosity
+427,2,0.14341742179023032,0.8356760612848539,0.8829249712049909,4,0.36449877069460557,3.3010752688172045,logloss,42,0
