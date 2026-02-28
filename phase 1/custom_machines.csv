@@ -1,0 +1,2 @@
+Machine_ID,is_custom,Failure_Prob,Health_Score,Risk_Tier,Machine_Type,Machine_Age,Daily_Operating_Hours,Avg_Load_Percentage,Avg_Vibration,Avg_Temperature,Total_Run_Hours,Last_Maintenance_Days,Failure_History_Count,Energy_Consumption_Rate
+MCH-NEW-001,True,0.066,81.8,Healthy,CNC Mill,5.0,12.0,60.0,3.0,75.0,5000.0,30.0,0,50.0
