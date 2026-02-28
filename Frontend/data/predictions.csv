@@ -1,0 +1,21 @@
+MachineID,MachineType,Failure_Prob,Risk_Category,Recommended_Action,LastMaintenanceDays,VibrationLevel,TempLevel
+M001,CNC,0.85,Critical,Immediate maintenance required,67,3.79,83.95
+M002,CNC,0.30,Low,Schedule routine inspection,135,0.76,94.65
+M003,Milling,0.78,High,Maintenance within 48h,62,0.59,98.8
+M004,Milling,0.22,Low,Monitor normally,54,1.32,67.34
+M005,CNC,0.43,Medium,Inspect vibration dampers,26,2.44,71.65
+M006,CNC,0.28,Low,Schedule routine inspection,121,1.81,74.65
+M007,Milling,0.27,Low,Monitor normally,23,1.4,80.57
+M008,Lathe,0.58,High,Inspect bearings - overdue service,289,3.23,66.82
+M009,Milling,0.61,High,Service overdue - vibration high,239,3.58,77.61
+M010,CNC,0.24,Low,Monitor normally,13,0.65,96.37
+M011,Lathe,0.42,Medium,Check lubrication system,184,1.9,80.8
+M012,Lathe,0.92,Critical,Take offline immediately - failure imminent,120,4.86,91.01
+M013,Lathe,0.18,Low,Monitor normally,57,0.9,67.84
+M014,Lathe,0.38,Medium,Check service schedule,193,2.25,70.85
+M015,CNC,0.33,Low,Schedule routine inspection,145,1.76,81.71
+M016,CNC,0.55,High,Temperature critical - check cooling,284,0.84,99.48
+M017,Milling,0.26,Low,Monitor normally,50,0.52,92.62
+M018,Milling,0.82,Critical,Immediate maintenance required,195,3.97,62.96
+M019,CNC,0.87,Critical,Take offline - failure predicted,45,4.38,84.93
+M020,CNC,0.32,Low,Schedule routine inspection,158,1.9,73.01

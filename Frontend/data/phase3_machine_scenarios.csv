@@ -1,0 +1,13 @@
+MachineID,ScenarioType,MaintenanceDuration_Hours,ProductionLoss_Hours,EstimatedCost,RiskReduction,Priority,Status
+M001,Preventive,8,8,12000,0.70,Critical,Pending
+M003,Corrective,16,16,25000,0.65,High,Scheduled
+M008,Preventive,12,12,18000,0.40,High,Pending
+M009,Preventive,10,10,15000,0.45,High,Pending
+M012,Corrective,24,24,38000,0.80,Critical,Immediate
+M016,Preventive,6,6,9000,0.35,High,Pending
+M018,Corrective,20,20,30000,0.72,Critical,Pending
+M019,Corrective,18,18,28000,0.75,Critical,Pending
+M005,Predictive,4,4,6000,0.30,Medium,Scheduled
+M011,Predictive,6,6,9000,0.25,Medium,Pending
+M014,Predictive,4,4,6000,0.20,Medium,Pending
+M020,Preventive,4,4,6000,0.15,Low,Pending

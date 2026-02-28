@@ -29,7 +29,7 @@ X_train_bal, y_train_bal = smote.fit_resample(X_train, y_train)
 ratio = (y_train == 0).sum() / (y_train == 1).sum()
 cv    = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
-# ── Optuna: find best XGBoost hyperparameters ────────────────────
+# Optuna: find best XGBoost hyperparameters 
 print("Optuna — tuning XGBoost (50 trials)...")
 
 def xgb_objective(trial):
@@ -62,7 +62,7 @@ best_xgb_params.update({"scale_pos_weight": ratio,
 print(f"  Best XGBoost CV F1 : {study.best_value:.2%}")
 print(f"  Best params        : {best_xgb_params}")
 
-# ── Define models — XGBoost uses tuned params ────────────────────
+# Define models — XGBoost uses tuned params
 models = {
     "XGBoost": XGBClassifier(**best_xgb_params),
 
