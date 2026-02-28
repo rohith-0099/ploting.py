@@ -114,7 +114,8 @@ def safe_float(v):
     except: return 0.0
 
 def clean_df(df: pd.DataFrame) -> pd.DataFrame:
-    return df.replace([np.inf, -np.inf], np.nan).where(pd.notnull(df), None)
+    # Replace inf with nan, then fill all nan with None (JSON null)
+    return df.replace([np.inf, -np.inf], np.nan).fillna(np.nan).replace({np.nan: None})
 
 def _load_master_machines():
     """Load base machines + session machines merged."""

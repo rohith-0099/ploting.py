@@ -1,2 +1,9 @@
 Job_ID,is_custom,Required_Machine_Type,Processing_Time_Hours,Load_Requirement,Priority_Level,Deadline_Hours,Revenue_Per_Job,Notes
 CUST-001,True,Welding Unit,12.0,50.0,2,96.0,8000.0,
+CUST-002,True,Hydraulic Press,12.0,50.0,1,96.0,8000.0,
+CUST-003,True,Hydraulic Press,12.0,50.0,1,96.0,8000.0,
+CUST-004,True,Hydraulic Press,12.0,50.0,3,96.0,8006.0,
+CUST-005,True,Hydraulic Press,12.0,50.0,3,96.0,8006.0,
+CUST-006,True,Welding Unit,12.0,50.0,3,96.0,8006.0,
+CUST-007,True,Welding Unit,12.0,50.0,3,96.0,8006.0,
+CUST-008,True,Welding Unit,12.0,50.0,3,96.0,8006.0,
