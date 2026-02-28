@@ -25,7 +25,7 @@ function ArcGauge({ value, size = 80, strokeWidth = 8 }) {
 
 // ── Machine Health Card ───────────────────────────────────────────
 function MachineCard({ machine }) {
-    const score = Math.round(machine.Health_Score || 0);
+    const score = Number((machine.Health_Score || 0).toFixed(1));
     const color = score >= 70 ? '#10B981' : score >= 40 ? '#F59E0B' : '#EF4444';
     const risk = machine.Risk_Tier || 'Healthy';
     const badgeClass = risk === 'Critical' ? 'badge-critical' : risk === 'High Risk' ? 'badge-high' :
@@ -43,7 +43,7 @@ function MachineCard({ machine }) {
             <div style={{ display: 'flex', alignItems: 'flex-end', gap: 12 }}>
                 <ArcGauge value={score} size={64} strokeWidth={7} />
                 <div>
-                    <p style={{ fontFamily: 'IBM Plex Mono', fontSize: 22, fontWeight: 600, color, lineHeight: 1 }}>{score}</p>
+                    <p style={{ fontFamily: 'IBM Plex Mono', fontSize: 22, fontWeight: 600, color, lineHeight: 1 }}>{score.toFixed(1)}</p>
                     <p style={{ fontSize: 10, color: 'var(--text-muted)', fontFamily: 'DM Sans' }}>Health Score</p>
                     <p style={{ fontFamily: 'IBM Plex Mono', fontSize: 10, color: 'var(--text-secondary)', marginTop: 2 }}>
                         p={((machine.Failure_Prob || 0) * 100).toFixed(0)}%

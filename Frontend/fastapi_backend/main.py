@@ -59,7 +59,7 @@ def _load_persisted_data():
     if CUSTOM_JOBS_CSV.exists():
         try:
             df = pd.read_csv(CUSTOM_JOBS_CSV)
-            _session_jobs = df.to_dict(orient="records")
+            _session_jobs = clean_df(df).to_dict(orient="records")
             # Set counter to max existing id
             ids = [j["Job_ID"] for j in _session_jobs if str(j.get("Job_ID","")).startswith("CUST-")]
             nums = [int(i.split("-")[1]) for i in ids if i.split("-")[1].isdigit()]
@@ -71,7 +71,7 @@ def _load_persisted_data():
     if CUSTOM_MACHINES_CSV.exists():
         try:
             df = pd.read_csv(CUSTOM_MACHINES_CSV)
-            _session_machines = df.to_dict(orient="records")
+            _session_machines = clean_df(df).to_dict(orient="records")
             ids  = [m["Machine_ID"] for m in _session_machines if str(m.get("Machine_ID","")).startswith("MCH-NEW-")]
             nums = [int(i.split("-")[2]) for i in ids if len(i.split("-"))>2 and i.split("-")[2].isdigit()]
             _machine_counter[0] = max(nums, default=0)
@@ -327,8 +327,10 @@ def summary():
 def shap_values():
     try:
         df = pd.read_csv(P2/"shap_values.csv")
-        importance = df.select_dtypes(include=[np.number]).abs().mean().sort_values(ascending=False).head(10)
-        return [{"feature": k, "importance": round(float(v), 4)} for k, v in importance.items()]
+        # Filter: only SHAP value columns
+        shap_cols = [c for c in df.columns if c.startswith("SHAP_")]
+        importance = df[shap_cols].abs().mean().sort_values(ascending=False).head(10)
+        return [{"feature": k.replace("SHAP_",""), "importance": round(float(v), 4)} for k, v in importance.items()]
     except Exception as e: return [{"error": str(e)}]
 
 # ══════════════════════════════════════════════════════════════════
